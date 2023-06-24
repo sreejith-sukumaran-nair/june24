@@ -1,0 +1,42 @@
+html, body{
+    overflow-x: hidden;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    
+}
+.card{
+    height: 100%;
+    padding: 20px;
+    border-radius: 50px;
+    
+    
+
+}
+@media screen and (max-width: 290px) {
+    .gallery .row .col-xs-12 .card{
+        
+        max-width: 80vw;
+        
+    }
+    .col-xs-12{
+        padding: -15px;
+        
+    }
+    .ourteam .team .col-xxs-12 .card{
+        
+        max-width: 80vw;
+        
+        
+    }
+    
+  }
+
+  .gallery .row .col-xs-12 .card{
+        
+    border-radius: 10px;
+    
+}  
+
+
+
